@@ -21,7 +21,25 @@ Le projet final est une application Qt5 qui lit en temps réel les valeurs du MP
 - une page d'accueil,
 - un graphique défilant des accélérations en m/s² sur les trois axes,
 - une représentation 3D d'un avion dont l'orientation suit celle de la carte.
+  
+---
+## Organisation du projet
 
+```
+Linux-stm32mp157/
+├── Backup_dtb_image/
+│   └── tftp/                          # DTB et image kernel pour le boot via TFTP
+├── embedded-linux-stm32mp1-labs/      # Travaux issus de la formation Bootlin
+│   └── ...                            # (toolchain, U-Boot, kernel, rootfs, etc.)
+├── qt_src/                            # Sources des programmes Qt5
+│   ├── hello_qt                       # Hello world Qt
+│   ├── MPU/                           # Affichage de l'acceleration + GRAPH
+│   ├── MPU_GYRO/                      # Affiche de l'angle et de la 3d de l'avion
+│   └── MPU_ACCGYRO/                   # Code Final avec l'accélération et le gyroscope
+├── embedded-linux-stm32mp1-labs.tar.xz  # Archive de la formation Bootlin
+├── .gitignore
+└── README.md                          # Le rapport
+```
 ---
 
 ## 2. Travaux réalisés à partir de la formation Bootlin
