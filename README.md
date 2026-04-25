@@ -191,7 +191,7 @@ Le kernel se charge de tout l'I²C, on n'a qu'à lire un fichier.
 
 ### 6.1. Étape 1 — *Hello world* Qt
 
-<img width="750" height="1000" alt="WhatsApp Image 2026-04-25 at 19 34 45" src="https://github.com/user-attachments/assets/3e99aa8d-b7ed-4362-a6c9-fad32b814411" />
+<img width="325" height="500" alt="WhatsApp Image 2026-04-25 at 19 34 45" src="https://github.com/user-attachments/assets/3e99aa8d-b7ed-4362-a6c9-fad32b814411" />
 
 Premier test minimal : un `QLabel` plein écran avec un fond rouge. Objectif : valider que `qmake`, la compilation Qt et le plugin `linuxfb` fonctionnent. Ce test a permis de détecter l'absence des polices au début (rectangle rouge sans aucun texte affiché).
 
