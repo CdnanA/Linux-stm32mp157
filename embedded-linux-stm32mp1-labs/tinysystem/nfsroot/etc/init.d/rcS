@@ -1,0 +1,8 @@
+#!/bin/sh
+
+mount -t proc none /proc
+mount -t sysfs none /sys
+
+echo "System started"
+
+/usr/sbin/httpd -h /www/
