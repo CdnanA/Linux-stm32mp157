@@ -1,0 +1,23 @@
+QMAKE_CXX.QT_COMPILER_STDCXX = 201703L
+QMAKE_CXX.QMAKE_GCC_MAJOR_VERSION = 14
+QMAKE_CXX.QMAKE_GCC_MINOR_VERSION = 2
+QMAKE_CXX.QMAKE_GCC_PATCH_VERSION = 0
+QMAKE_CXX.COMPILER_MACROS = \
+    QT_COMPILER_STDCXX \
+    QMAKE_GCC_MAJOR_VERSION \
+    QMAKE_GCC_MINOR_VERSION \
+    QMAKE_GCC_PATCH_VERSION
+QMAKE_CXX.INCDIRS = \
+    /home/uredpierre3/Embededstm/embedded-linux-stm32mp1-labs/buildroot/buildroot/output/host/opt/ext-toolchain/arm-buildroot-linux-gnueabihf/include/c++/14.2.0 \
+    /home/uredpierre3/Embededstm/embedded-linux-stm32mp1-labs/buildroot/buildroot/output/host/opt/ext-toolchain/arm-buildroot-linux-gnueabihf/include/c++/14.2.0/arm-buildroot-linux-gnueabihf \
+    /home/uredpierre3/Embededstm/embedded-linux-stm32mp1-labs/buildroot/buildroot/output/host/opt/ext-toolchain/arm-buildroot-linux-gnueabihf/include/c++/14.2.0/backward \
+    /home/uredpierre3/Embededstm/embedded-linux-stm32mp1-labs/buildroot/buildroot/output/host/opt/ext-toolchain/lib/gcc/arm-buildroot-linux-gnueabihf/14.2.0/include \
+    /home/uredpierre3/Embededstm/embedded-linux-stm32mp1-labs/buildroot/buildroot/output/host/opt/ext-toolchain/lib/gcc/arm-buildroot-linux-gnueabihf/14.2.0/include-fixed \
+    /home/uredpierre3/Embededstm/embedded-linux-stm32mp1-labs/buildroot/buildroot/output/host/opt/ext-toolchain/arm-buildroot-linux-gnueabihf/include \
+    /home/uredpierre3/Embededstm/embedded-linux-stm32mp1-labs/buildroot/buildroot/output/host/arm-buildroot-linux-gnueabihf/sysroot/usr/include
+QMAKE_CXX.LIBDIRS = \
+    /home/uredpierre3/Embededstm/embedded-linux-stm32mp1-labs/buildroot/buildroot/output/host/opt/ext-toolchain/lib/gcc/arm-buildroot-linux-gnueabihf/14.2.0 \
+    /home/uredpierre3/Embededstm/embedded-linux-stm32mp1-labs/buildroot/buildroot/output/host/opt/ext-toolchain/lib/gcc \
+    /home/uredpierre3/Embededstm/embedded-linux-stm32mp1-labs/buildroot/buildroot/output/host/opt/ext-toolchain/arm-buildroot-linux-gnueabihf/lib \
+    /home/uredpierre3/Embededstm/embedded-linux-stm32mp1-labs/buildroot/buildroot/output/host/arm-buildroot-linux-gnueabihf/sysroot/lib \
+    /home/uredpierre3/Embededstm/embedded-linux-stm32mp1-labs/buildroot/buildroot/output/host/arm-buildroot-linux-gnueabihf/sysroot/usr/lib
