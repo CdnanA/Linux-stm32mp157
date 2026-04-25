@@ -6,6 +6,7 @@
 **Framework graphique :** Qt5 avec plateforme `linuxfb`
 
 ---
+https://github.com/user-attachments/assets/93d5aabe-76e0-4b53-9788-d2305bd78531
 
 ## 1. Introduction
 
